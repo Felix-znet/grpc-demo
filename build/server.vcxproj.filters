@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Git-work-woftware\grpc-demo\grpc-demo\src\server\server.cpp">
+      <Filter>Source Files\server</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Git-work-woftware\grpc-demo\grpc-demo\src\server\test\Test.cpp">
+      <Filter>Source Files\server\test</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Git-work-woftware\grpc-demo\grpc-demo\build\generated\chat.pb.cc">
+      <Filter>generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Git-work-woftware\grpc-demo\grpc-demo\build\generated\chat.grpc.pb.cc">
+      <Filter>generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Git-work-woftware\grpc-demo\grpc-demo\build\generated\chat.pb.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Git-work-woftware\grpc-demo\grpc-demo\build\generated\chat.grpc.pb.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Git-work-woftware\grpc-demo\grpc-demo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AC1842C0-95AF-37A5-9641-DADAD8F3E772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6539934F-5812-3ED7-A6A6-0ACE824E7C85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\server">
+      <UniqueIdentifier>{E54DD441-5480-3BEB-9EBF-B16E4D2C99A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\server\test">
+      <UniqueIdentifier>{911C15FE-DE08-31FC-8942-5DEC326C7293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="generated">
+      <UniqueIdentifier>{F133D7AE-9509-3698-B80A-B7F695020F5F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

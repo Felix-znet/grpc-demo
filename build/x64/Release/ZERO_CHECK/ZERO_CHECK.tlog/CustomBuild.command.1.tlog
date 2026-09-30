@@ -1,0 +1,10 @@
+^E:\GIT-WORK-WOFTWARE\GRPC-DEMO\GRPC-DEMO\BUILD\CMAKEFILES\C50ADC9D67670D5ED7FFC37AB89A256C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Git-work-woftware/grpc-demo/grpc-demo -BE:/Git-work-woftware/grpc-demo/grpc-demo/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Git-work-woftware/grpc-demo/grpc-demo/build/grpc_demo.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

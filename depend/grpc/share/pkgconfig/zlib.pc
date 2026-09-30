@@ -1,0 +1,13 @@
+prefix=D:/grpc-install
+exec_prefix=D:/grpc-install
+libdir=D:/grpc-install/lib
+sharedlibdir=D:/grpc-install/lib
+includedir=D:/grpc-install/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

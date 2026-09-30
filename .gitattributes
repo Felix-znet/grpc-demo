@@ -1,0 +1,5 @@
+depend/grpc/lib/grpc.lib filter=lfs diff=lfs merge=lfs -text
+depend/grpc/lib/grpc_authorization_provider.lib filter=lfs diff=lfs merge=lfs -text
+depend/grpc/lib/grpc_unsecure.lib filter=lfs diff=lfs merge=lfs -text
+depend/grpc/lib/libprotobuf.lib filter=lfs diff=lfs merge=lfs -text
+depend/grpc/lib/libprotoc.lib filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package chat;
+
+// Bidirectional message service: client and server exchange messages.
+service ChatService {
+  // Unary RPC: client sends one message, server replies.
+  rpc SendText (MessageRequest) returns (MessageReply);
+
+  // Bidirectional streaming RPC: send and receive in real time.
+  rpc Chat (stream MessageRequest) returns (stream MessageReply);
+}
+
+// A single message.
+message MessageRequest {
+  string from = 1;   // sender name
+  string content = 2; // message content
+}
+
+// A single reply.
+message MessageReply {
+  string receiver = 1; // receiver name
+  string content = 2;  // reply content
+}

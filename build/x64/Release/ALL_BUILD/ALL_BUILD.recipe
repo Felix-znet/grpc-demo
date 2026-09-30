@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>E:\Git-work-woftware\grpc-demo\grpc-demo\build\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Git-work-woftware\grpc-demo\grpc-demo\build\x64\Release\gen_proto</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Git-work-woftware\grpc-demo\grpc-demo\build\Release\client.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Git-work-woftware\grpc-demo\grpc-demo\build\Release\server.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Git-work-woftware\grpc-demo\grpc-demo\build\x64\Release\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
