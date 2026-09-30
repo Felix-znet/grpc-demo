@@ -1,5 +1,0 @@
-E:/Git-work-woftware/grpc-demo/grpc-demo/build/CMakeFiles/gen_proto.dir
-E:/Git-work-woftware/grpc-demo/grpc-demo/build/CMakeFiles/server.dir
-E:/Git-work-woftware/grpc-demo/grpc-demo/build/CMakeFiles/client.dir
-E:/Git-work-woftware/grpc-demo/grpc-demo/build/CMakeFiles/ALL_BUILD.dir
-E:/Git-work-woftware/grpc-demo/grpc-demo/build/CMakeFiles/ZERO_CHECK.dir
